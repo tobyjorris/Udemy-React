@@ -1,6 +1,6 @@
-import React, { Component }from 'react';
+import React, { Component, Fragment }from 'react';
 import classes from './Person.css'
-import Aux from '../../../hoc/Auxilliary.js';
+//import Aux from '../../../hoc/Auxiliary.js';
 
 
 
@@ -8,6 +8,7 @@ class Person extends Component {
     render() {
         console.log('[Person.js] rendering...');
         return (
+            //<Fragment>
             //<Aux className={classes.Person}>
              <div className={classes.Person}>
                 <p onClick={this.props.click}>
@@ -20,6 +21,7 @@ class Person extends Component {
                     value={this.props.name}/>
              </div>
             //</Aux>
+            //</Fragment>
         );
     }
 }

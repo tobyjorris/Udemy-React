@@ -1,5 +1,4 @@
 import React from 'react';
-import Aux from '../../../../hoc/Auxiliary';
 import classes from './ToggleButton.css';
 
 const toggleBtn = (props) => (
